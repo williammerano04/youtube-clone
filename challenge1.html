@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube Clone</title>
+        <link rel="stylesheet" href="videos.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="left-header.css">
+        <link rel="stylesheet" href="shorts.css">
+        <link rel="stylesheet" href="general.css">
+        <style>
+            
+            a{
+                color: black;
+                text-decoration: none;     
+            }
+            
+            
+        </style>
+    </head>
+    <body style="height: 3000px; padding-top: 58px;">
+        <div class="header">
+            <div class="left-section">
+                <div class="option-div">
+                    <img class="option-icon" src="/icons/bars.png">
+                </div>
+                
+                <div class="youtubelogo-div">
+                    <img class="youtubelogo"src="images/youtubelogo.png" alt="">
+                </div>
+                
+
+            </div>
+            <div class="middle-section">
+                <div class="search-div">
+                    <input class="searchbox" type="search" placeholder="Search">
+                    <button class="search-button">
+                    <img class="search-icon" src="/icons/search.png">
+                    <div class="icon-text-hover">Search</div>
+                    </button>
+                    <button class="mic-button">
+                        <img class="mic-icon" src="/icons/mic.png">
+                        <div class="icon-text-hover">Search with your voice</div>
+                    </button>
+                </div>
+                
+                
+            </div>
+            <div class="right-section">
+                <div class="video-icon-div">
+                     <img class="video-icon" src="/icons/video-camera.png">
+                    <div class="icon-text-hover">Create</div>
+                </div>
+                <div class="bell-icon-div">
+                    <img class="bell-icon" src="/icons/notification.png">
+                    <p class="red-notif">3</p>
+                    <div class="icon-text-hover">Notification</div>
+                </div>
+                <img class="user-icon" src="/icons/Wlogo.jpg">
+            </div>
+           
+
+        </div>
+        
+        <div class="header-left">
+            <div class="header-left-section">
+                <div class="header-leftrow">
+                    <div class="header-left-icon-div">
+                        <img class="header-left-icon" src="/icons/home.png">
+                    </div>
+                    <div class="header-left-text-div">
+                        <p class="header-left-text">Home</p>
+                    </div>
+                </div>
+
+                <div class="header-leftrow">
+                    <div class="header-left-icon-div">
+                        <img class="header-left-icon" src="/icons/multimedia.png">
+                    </div>
+                    <div class="header-left-text-div">
+                        <p class="header-left-text">Shorts</p>
+                    </div>
+                </div>
+                <div class="header-leftrow">
+                    <div class="header-left-icon-div">
+                        <img class="header-left-icon" src="/icons/subscription.png">
+                    </div>
+                    <div class="header-left-text-div">
+                        <p class="header-left-text">Subcriptions</p>
+                    </div>
+                </div>
+            </div>
+            <div class="header-left-section">
+                <div class="header-leftrow2">
+                   
+                    <div class="header-left-text2-div">
+                        <p class="header-left-text2">You ></p>
+                    </div>
+                </div>
+                <div class="header-leftrow">
+                    <div class="header-left-icon-div">
+                        <img class="header-left-icon" src="/icons/history.png">
+                    </div>
+                    <div class="header-left-text-div">
+                        <p class="header-left-text">History</p>
+                    </div>
+                </div>
+
+                <div class="header-leftrow">
+                    <div class="header-left-icon-div">
+                        <img class="header-left-icon" src="/icons/playlist.png">
+                    </div>
+                    <div class="header-left-text-div">
+                        <p class="header-left-text">Playlist</p>
+                    </div>
+                </div>
+                <div class="header-leftrow">
+                    <div class="header-left-icon-div">
+                        <img class="header-left-icon" src="/icons/yourvideos.png">
+                    </div>
+                    <div class="header-left-text-div">
+                        <p class="header-left-text">Your Videos</p>
+                    </div>
+                </div>
+                <div class="header-leftrow">
+                    <div class="header-left-icon-div">
+                        <img class="header-left-icon" src="/icons/watchlater.png">
+                    </div>
+                    <div class="header-left-text-div">
+                        <p class="header-left-text">Watch Later</p>
+                    </div>
+                </div>
+                <div class="header-leftrow">
+                    <div class="header-left-icon-div">
+                        <img class="header-left-icon" src="/icons/liked.png">
+                    </div>
+                    <div class="header-left-text-div">
+                        <p class="header-left-text">Liked Videos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="header-left-section">
+                <div class="header-leftrow2">
+                   
+                    <div class="header-left-text2-div">
+                        <p class="header-left-text2">Explore</p>
+                    </div>
+                </div>
+
+                <div class="header-leftrow">
+                    <div class="header-left-icon-div">
+                        <img class="header-left-icon" src="/icons/trending.png">
+                    </div>
+                    <div class="header-left-text-div">
+                        <p class="header-left-text">Trending</p>
+                    </div>
+                </div>
+                <div class="header-leftrow">
+                    <div class="header-left-icon-div">
+                        <img class="header-left-icon" src="/icons/music.png">
+                    </div>
+                    <div class="header-left-text-div">
+                        <p class="header-left-text">Music</p>
+                    </div>
+                </div>
+                <div class="header-leftrow">
+                    <div class="header-left-icon-div">
+                        <img class="header-left-icon" src="/icons/movie.png">
+                    </div>
+                    <div class="header-left-text-div">
+                        <p class="header-left-text">Movie</p>
+                    </div>
+                </div>
+                <div class="header-leftrow">
+                    <div class="header-left-icon-div">
+                        <img class="header-left-icon" src="/icons/gaming.png">
+                    </div>
+                    <div class="header-left-text-div">
+                        <p class="header-left-text">Gaming</p>
+                    </div>
+                </div>
+                <div class="header-leftrow">
+                    <div class="header-left-icon-div">
+                        <img class="header-left-icon" src="/icons/news.png">
+                    </div>
+                    <div class="header-left-text-div">
+                        <p class="header-left-text">News</p>
+                    </div>
+                </div>
+                <div class="header-leftrow">
+                    <div class="header-left-icon-div">
+                        <img class="header-left-icon" src="/icons/sports.png">
+                    </div>
+                    <div class="header-left-text-div">
+                        <p class="header-left-text">Sports</p>
+                    </div>
+                </div>
+                <div class="header-leftrow">
+                    <div class="header-left-icon-div">
+                        <img class="header-left-icon" src="/icons/fashion.png">
+                    </div>
+                    <div class="header-left-text-div">
+                        <p class="header-left-text">Fashion & Beauty</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="middle-section2">
+            
+            <div class="video-section-grid">
+                <div class="video-sections">
+                    <div class="video-preview">
+                        <a href="https://www.youtube.com/watch?v=O-qqgRjfo3s">
+                        <img class="video-thumbnail"src="images/pic1.jpg">
+                        <p class="time-duration">28:57</p>
+                        </a>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="author-logo">
+                            <img class="logo" src="images/logo1.jpg">
+                            <div class="author-hover">
+                                <div class="author-logo-hover">
+                                    <img class="author-logo-img"src="images/logo1.jpg">
+                                </div>
+                                <div class="author-description-hover">
+                                    <p class="author-name-hover">Lets Game it Out &check;</p>
+                                    <p class="author-ratings-hover">5.8M subcribers</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-description">
+                            
+                            <p class="title">
+                                <a href="https://www.youtube.com/watch?v=O-qqgRjfo3s">I Built a Fully Vertical Factory That's a 100% Total Nightmare</a></p>
+                            <p class="author">Let's Game It Out &check;</p>
+                            <p class="ratings">1.6M views &middot; 1 day ago </p>
+                        </div>
+                        <div class="video-option-div">
+                            <img class="video-option" src="icons/menu-video.png">
+                        </div>
+                      
+                    </div>
+                    
+                </div>
+            
+                <div class="video-sections">
+                    <div class="video-preview">
+                        <a href="https://www.youtube.com/watch?v=06j0vZ56HYw">
+                        <img class="video-thumbnail"src="images/pic2.jpg">
+                        <p class="time-duration">50:52</p>
+                        </a>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="author-logo">
+                            <img class="logo" src="images/logo2.jpg">
+                            <div class="author-hover">
+                                <div class="author-logo-hover">
+                                    <img class="author-logo-img"src="images/logo2.jpg">
+                                </div>
+                                <div class="author-description-hover">
+                                    <p class="author-name-hover">Tarik &check;</p>
+                                    <p class="author-ratings-hover">1.1M subcribers</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-description">
+                            
+                            <p class="title">
+                                <a href="https://www.youtube.com/watch?v=06j0vZ56HYw">SENTINELS ARE BACK! Tarik Reacts to SEN vs Cloud9 | Red Bull Home Ground Grand Finals</a>
+                            </p>
+                            <p class="author">Tarik &check;</p>
+                            <p class="ratings">2.1M views &middot; 1 weeks ago </p>
+                        </div>
+                        <div class="video-option-div">
+                            <img class="video-option" src="icons/menu-video.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="video-sections">
+                    <div class="video-preview">
+                        <a href="https://www.youtube.com/watch?v=UeZvVDSgn7U">
+                        <img class="video-thumbnail"src="images/pic3.jpeg">
+                        <p class="time-duration">3:20</p>
+                        </a>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="author-logo">
+                            <img class="logo" src="images/logo3.jpg">
+                            <div class="author-hover">
+                                <div class="author-logo-hover">
+                                    <img class="author-logo-img"src="images/logo3.jpg">
+                                </div>
+                                <div class="author-description-hover">
+                                    <p class="author-name-hover">BBCRadio1VEVO &check;</p>
+                                    <p class="author-ratings-hover">3.25M subcribers</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-description">
+                            
+                            <p class="title">
+                                <a href="https://www.youtube.com/watch?v=UeZvVDSgn7U">Halsey - Lucid Dreams (Juice WRLD cover) in the Live Lounge</a>
+                            </p>
+                            <p class="author">BBCRadio1VEVO&check;</p>
+                            <p class="ratings">13M views &middot; 6 years ago </p>
+                        </div>
+                        <div class="video-option-div">
+                            <img class="video-option" src="icons/menu-video.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="video-sections">
+                    <div class="video-preview">
+                        <a href="https://www.youtube.com/watch?v=WS0vTRl_2PQ">
+                        <img class="video-thumbnail"src="images/pic6.jpg">
+                        <p class="time-duration">1:19</p>
+                        </a>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="author-logo">
+                            <img class="logo" src="images/logo6.jpg">
+                            <div class="author-hover">
+                                <div class="author-logo-hover">
+                                    <img class="author-logo-img"src="images/logo6.jpg">
+                                </div>
+                                <div class="author-description-hover">
+                                    <p class="author-name-hover">Subnautica &check;</p>
+                                    <p class="author-ratings-hover">568K subcribers</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-description">
+                            
+                            <p class="title">
+                                <a href="https://www.youtube.com/watch?v=WS0vTRl_2PQ">Subnautica 2 - Teaser Trailer</a></p>
+                            <p class="author">Subnautica &check;</p>
+                            <p class="ratings">568k views &middot; 4 weeks ago </p>
+                        </div>
+                        <div class="video-option-div">
+                            <img class="video-option" src="icons/menu-video.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="video-sections">
+                    <div class="video-preview">
+                        <a href="https://www.youtube.com/watch?v=TyV-OhCrVDA&t=2658s">
+                        <img class="video-thumbnail"src="images/pic5.jpg">
+                        <p class="time-duration">1:00:14</p>
+                        </a>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="author-logo">
+                            <img class="logo" src="images/logo5.jpg">
+                            <div class="author-hover">
+                                <div class="author-logo-hover">
+                                    <img class="author-logo-img"src="images/logo5.jpg">
+                                </div>
+                                <div class="author-description-hover">
+                                    <p class="author-name-hover">Ms Rachel - Toddler Learning Videos&check;</p>
+                                    <p class="author-ratings-hover">12.3M subcribers</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-description">
+                            
+                            <p class="title">
+                                <a href="https://www.youtube.com/watch?v=TyV-OhCrVDA&t=2658s">Learn Colors, Fruits and Vegetables with Ms Rachel | Toddler Learning Video</a></p>
+                            <p class="author">Ms Rachel - Toddler Learning Videos&check;</p>
+                            <p class="ratings">84M views &middot; 3 years ago </p>
+                        </div>
+                        <div class="video-option-div">
+                            <img class="video-option" src="icons/menu-video.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="video-sections">
+                    <div class="video-preview">
+                        <a href="https://www.youtube.com/watch?v=RpH5axdiGT0">
+                        <img class="video-thumbnail"src="images/pic4.jpg">
+                        <p class="time-duration">28:08</p>
+                        </a>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="author-logo">
+                            <img class="logo" src="images/logo4.jpg">
+                            <div class="author-hover">
+                                <div class="author-logo-hover">
+                                    <img class="author-logo-img"src="images/logo4.jpg">
+                                </div>
+                                <div class="author-description-hover">
+                                    <p class="author-name-hover">Suits Official &check;</p>
+                                    <p class="author-ratings-hover">488K subcribers</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-description">
+                            
+                            <p class="title">
+                                <a href="https://www.youtube.com/watch?v=RpH5axdiGT0">$50 Million is Missing | Suits</a></p>
+                            <p class="author">Suits Official &check;</p>
+                            <p class="ratings">638K views &middot; 1 month ago </p>
+                        </div>
+                        <div class="video-option-div">
+                            <img class="video-option" src="icons/menu-video.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shorts-grid">
+                <div class="section-title-container">
+                    <div class="shorts-logo-container">
+                        <img class="shorts-logo"src="icons/shortslogo.png" alt="">
+                        <div class="shorts-logo-title">Shorts</div>
+                    </div>
+                    <div class="short-close-button-container">
+                        <button class="short-close-button">X</button>
+                    </div>
+                    
+                </div>
+                <div class="shorts-section-grid">
+                    <div class="short-section1">
+                        <div class="short-img-div">
+                            <img class="shorts-img" src="images/shorts/shorts1.jpg">
+                        </div>
+                        <div class="short-info-container">
+                            <div class="short-video-title">
+                                <p>Best Reaction Ever!! Sweetest kapappeeeew</p>
+                            </div>
+                            <div class="shorts-menu-container">
+                                <button class="shorts-menu-button">
+                                    <img class="shorts-menu"src="images/shorts/menu-video.png">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="short-video-ratings">
+                            <p>33M views</p>
+                        </div>
+                    </div>
+                    <div class="short-section2">
+                        <div class="short-img-div">
+                            <img class="shorts-img" src="images/shorts/shorts2.jpg">
+                        </div>
+                        <div class="short-info-container">
+                            <div class="short-video-title">
+                                <p>Liquid Nitrogen Rubber Band</p>
+                            </div>
+                            <div class="shorts-menu-container">
+                                <button class="shorts-menu-button">
+                                    <img class="shorts-menu"src="images/shorts/menu-video.png">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="short-video-ratings">
+                            <p>116M views</p>
+                        </div>
+                    </div>
+                    <div class="short-section3">
+                        <div class="short-img-div">
+                            <img class="shorts-img" src="images/shorts/shorts3.jpg">
+                        </div>
+                        <div class="short-info-container">
+                            <div class="short-video-title">
+                                <p>The Itsby Bitsy Spider Fun Reprise for Kids</p>
+                            </div>
+                            <div class="shorts-menu-container">
+                                <button class="shorts-menu-button">
+                                    <img class="shorts-menu"src="images/shorts/menu-video.png">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="short-video-ratings">
+                            <p>146K views</p>
+                        </div>
+                    </div>
+                    <div class="short-section4">
+                        <div class="short-img-div">
+                            <img class="shorts-img" src="images/shorts/shorts4.jpg">
+                        </div>
+                        <div class="short-info-container">
+                            <div class="short-video-title">
+                                <p>When Batman Plays GOOD COP|#shorts</p>
+                            </div>
+                            <div class="shorts-menu-container">
+                                <button class="shorts-menu-button">
+                                    <img class="shorts-menu"src="images/shorts/menu-video.png">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="short-video-ratings">
+                            <p>11M views</p>
+                        </div>
+                    </div>
+                    <div class="short-section5">
+                        <div class="short-img-div">
+                            <img class="shorts-img" src="images/shorts/shorts5.jpg">
+                        </div>
+                        <div class="short-info-container">
+                            <div class="short-video-title">
+                                <p>This baby got stuck on the slide&#128514;</p>
+                            </div>
+                            <div class="shorts-menu-container">
+                                <button class="shorts-menu-button">
+                                    <img class="shorts-menu"src="images/shorts/menu-video.png">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="short-video-ratings">
+                            <p>27K views</p>
+                        </div>
+                    </div>
+                    <div class="short-section6">
+                        <div class="short-img-div">
+                            <img class="shorts-img" src="images/shorts/shorts6.jpg">
+                        </div>
+                        <div class="short-info-container">
+                            <div class="short-video-title">
+                                <p>The mouse makes a dish that impresses the kapapeew</p>
+                            </div>
+                            <div class="shorts-menu-container">
+                                <button class="shorts-menu-button">
+                                    <img class="shorts-menu"src="images/shorts/menu-video.png">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="short-video-ratings">
+                            <p>1.7M views</p>
+                        </div>
+                    </div>
+                    <div class="short-section7">
+                        <div class="short-img-div">
+                            <img class="shorts-img" src="images/shorts/shorts7.jpg">
+                        </div>
+                        <div class="short-info-container">
+                            <div class="short-video-title">
+                                <p>Singing with Ms. Rachel and her Husband</p>
+                            </div>
+                            <div class="shorts-menu-container">
+                                <button class="shorts-menu-button">
+                                    <img class="shorts-menu"src="images/shorts/menu-video.png">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="short-video-ratings">
+                            <p>1.2M views</p>
+                        </div>
+                    </div>
+                    <div class="short-section8">
+                        <div class="short-img-div">
+                            <img class="shorts-img" src="images/shorts/shorts8.jpg">
+                        </div>
+                        <div class="short-info-container">
+                            <div class="short-video-title">
+                                <p>Liquid Nitrogen Bell Rejuvenation</p>
+                            </div>
+                            <div class="shorts-menu-container">
+                                <button class="shorts-menu-button">
+                                    <img class="shorts-menu"src="images/shorts/menu-video.png">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="short-video-ratings">
+                            <p>52M views</p>
+                        </div>
+                    </div>
+                </div>
+         </div>        
+
+         
+        
+        
+    </body>
+
+
+
+</html>
